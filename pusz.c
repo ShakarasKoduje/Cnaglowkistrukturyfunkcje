@@ -24,7 +24,6 @@ pole_t UtworzPole(double r){
 
 void UtworzPole2(pole_t *p, double r){
     p->r = r;
-    p->R = &r;    
-
+    p->R = &r;
 }
 
