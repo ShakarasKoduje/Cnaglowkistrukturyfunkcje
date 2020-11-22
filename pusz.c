@@ -27,3 +27,9 @@ void UtworzPole2(pole_t *p, double r){
     p->R = &r;
 }
 
+void StworzPrzedmiot(przedmiot_t *p, char *nazwa, char *opis, rodzaj r){    
+    p->nazwa = nazwa;
+    p->opis = opis;
+    p->rodzaj = r;
+}
+

@@ -20,8 +20,8 @@ struct pole_t{
 };
 
 struct przedmiot_t{
-    char nazwa[50];
-    char opis[100];
+    char *nazwa;
+    char *opis;
     rodzaj rodzaj;
     //enum rodzaj {BRON, JEDZENIE, UZYTKOWA, PANCERZ, LECZENIE} rodzaj;
 };
